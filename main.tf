@@ -5,10 +5,10 @@ terraform {
     region = "us-east-1"
   }
 }
-variable "parameters" {}
+variable "parameters" {
   default = [
-  { name = "test", type = "String", value = "test" },
-  { name = "test1", type = "String", value = "test1" }
+  { name = "test", type = "String", value = "test"},
+  { name = "test1", type = "String", value = "test1"}
  ]
 }
 
