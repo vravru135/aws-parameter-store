@@ -1,6 +1,6 @@
 variable "parameters" {
   default = {
-    { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cbsk880ayzha.us-east-1.rds.amazonaws.com"},
+    { name = "dev.backend.DB_HOST", type = "String", value = "dev-mysql-rds.cbsk880ayzha.us-east-1.rds.amazonaws.com" },
 
     ## RDS
     "dev.rds.endpoint"  = { name = "dev.rds.endpoint", type = "String", value = "dev-mysql-rds.cmscnppwjzuf.us-east-1.rds.amazonaws.com" },
